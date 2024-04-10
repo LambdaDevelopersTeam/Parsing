@@ -211,6 +211,7 @@ while z == 0:
                 name TEXT NOT NULL, 
                 cost INT, 
                 url TEXT NOT NULL, 
+                tooday TEXT NOT NULL,
                 PRIMARY KEY (id)
             ) ENGINE = InnoDB
             """
